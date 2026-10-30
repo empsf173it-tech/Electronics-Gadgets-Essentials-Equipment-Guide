@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics Gadgets Resource &amp; Knowledge Network</title>
+    <meta name="description" content="Your global hub for electronic schematics, hardware insights, and tech innovations.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .nav-link { transition: color 0.2s; }
+        .nav-link:hover { color: #ffd700 !important; }
+        .hero-gradient { background: linear-gradient(135deg, #0d1b2a 0%, #1b4fff 60%, #0d6efd 100%); }
+        .section-divider { border: 0; height: 3px; background: linear-gradient(to right, #0d6efd, #0dcaf0); border-radius: 2px; width: 60px; margin: 0.5rem auto 1.5rem; }
+        .card { transition: transform 0.25s, box-shadow 0.25s; }
+        .card:hover { transform: translateY(-6px); box-shadow: 0 12px 32px rgba(0,0,0,0.12) !important; }
+        .testimonial-card { background: #f8f9fa; border-left: 4px solid #0d6efd; border-radius: 10px; padding: 1.5rem; }
+        .badge-pill { border-radius: 50px; font-size: 0.78rem; padding: 0.4em 0.9em; }
+        .newsletter-section { background: linear-gradient(135deg, #0d1b2a, #1b4fff); color: white; }
+    </style>
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+      <div class="container position-relative">
+        <a class="navbar-brand fw-bold" href="index.html">⚡ GadgetNet</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="resources.html">Resources</a></li>
+            <li class="nav-item"><a class="nav-link" href="guides.html">Guides</a></li>
+            <li class="nav-item"><a class="nav-link" href="community.html">Community</a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+            <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero-gradient text-white text-center py-5 mb-0">
+        <div class="container py-4">
+            <span class="badge bg-warning text-dark mb-3" style="border-radius:50px;padding:0.4em 0.9em;">🚀 New: AI-Powered Circuit Analyzer</span>
+            <h1 class="display-4 fw-bold">Gadget Resource &amp; Knowledge Network</h1>
+            <p class="lead mb-4">Your global hub for electronic schematics, hardware insights, and tech innovations.</p>
+            <a href="resources.html" class="btn btn-light btn-lg me-2 shadow">Explore Resources</a>
+            <a href="register.html" class="btn btn-outline-light btn-lg">Join Network</a>
+        </div>
+    </header>
+
+    <!-- Stats Bar -->
+    <section class="bg-dark text-white py-4 mb-5">
+        <div class="container">
+            <div class="row text-center g-3">
+                <div class="col-6 col-md-3">
+                    <div class="fw-bold display-6 text-info">52K+</div>
+                    <small class="text-muted">Schematics</small>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="fw-bold display-6 text-warning">15K+</div>
+                    <small class="text-muted">Engineers</small>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="fw-bold display-6 text-success">8.2K</div>
+                    <small class="text-muted">Guides</small>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="fw-bold display-6 text-danger">120+</div>
+                    <small class="text-muted">Countries</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="container">
+
+        <!-- Empowering Section -->
+        <section class="row my-5 align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h2 class="fw-bold">Empowering Tech Enthusiasts</h2>
+                <hr class="section-divider ms-0">
+                <p class="lead">Access thousands of curated technical articles, component datasheets, and hands-on teardown guides provided by engineers worldwide.</p>
+                <ul class="list-unstyled mb-4">
+                    <li class="mb-2">✅ ESP32, STM32 &amp; RISC-V reference designs</li>
+                    <li class="mb-2">✅ Open-source KiCad PCB templates</li>
+                    <li class="mb-2">✅ SPICE simulation files</li>
+                    <li class="mb-2">✅ Community-reviewed component libraries</li>
+                </ul>
+                <a href="guides.html" class="btn btn-primary">View Teardown Guides</a>
+            </div>
+            <div class="col-md-6">
+                <img src="https://picsum.photos/600/400?random=1" class="img-fluid rounded shadow" alt="Electronics Circuit Lab">
+            </div>
+        </section>
+
+        <!-- Feature Cards -->
+        <section class="row my-5 text-center">
+            <h2 class="fw-bold text-center mb-1">Explore Our Ecosystem</h2>
+            <hr class="section-divider">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://picsum.photos/400/250?random=2" class="card-img-top" alt="Circuit Schematics">
+                    <div class="card-body">
+                        <div style="font-size:2.2rem" class="mb-2">🔌</div>
+                        <h5 class="card-title fw-bold">Open Schematics</h5>
+                        <p class="card-text">Explore open-source PCB designs, circuit diagrams, and micro-controller blueprints.</p>
+                        <a href="resources.html" class="btn btn-sm btn-outline-primary">Browse Library</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://picsum.photos/400/250?random=3" class="card-img-top" alt="Smart Hardware">
+                    <div class="card-body">
+                        <div style="font-size:2.2rem" class="mb-2">📡</div>
+                        <h5 class="card-title fw-bold">Smart Hardware Hub</h5>
+                        <p class="card-text">Latest benchmarks and deep dives into IoT devices, wearables, and robotics.</p>
+                        <a href="resources.html" class="btn btn-sm btn-outline-success">Explore Hub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://picsum.photos/400/250?random=4" class="card-img-top" alt="Global Network">
+                    <div class="card-body">
+                        <div style="font-size:2.2rem" class="mb-2">🌐</div>
+                        <h5 class="card-title fw-bold">Engineer Network</h5>
+                        <p class="card-text">Connect with hardware makers, software engineers, and electronics hobbyists.</p>
+                        <a href="community.html" class="btn btn-sm btn-outline-warning">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trending Topics -->
+        <section class="my-5">
+            <h2 class="fw-bold text-center mb-1">Trending Topics</h2>
+            <hr class="section-divider">
+            <div class="row g-3">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0 p-3 text-center">
+                        <div style="font-size:2rem">🤖</div>
+                        <h6 class="fw-bold mt-2">AI Hardware Accelerators</h6>
+                        <p class="small text-muted">NPUs, TPUs and edge inference chips redefining embedded ML.</p>
+                        <span class="badge bg-info text-dark" style="border-radius:50px">Hot 🔥</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0 p-3 text-center">
+                        <div style="font-size:2rem">🔋</div>
+                        <h6 class="fw-bold mt-2">Solid-State Batteries</h6>
+                        <p class="small text-muted">Next-gen energy storage for EVs and portable electronics.</p>
+                        <span class="badge bg-warning text-dark" style="border-radius:50px">Trending</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0 p-3 text-center">
+                        <div style="font-size:2rem">📶</div>
+                        <h6 class="fw-bold mt-2">Matter &amp; Thread Protocol</h6>
+                        <p class="small text-muted">Unified smart-home connectivity standard gaining rapid adoption.</p>
+                        <span class="badge bg-primary" style="border-radius:50px">Featured</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card h-100 shadow-sm border-0 p-3 text-center">
+                        <div style="font-size:2rem">⚡</div>
+                        <h6 class="fw-bold mt-2">GaN Power Devices</h6>
+                        <p class="small text-muted">Gallium Nitride transistors enabling ultra-efficient compact chargers.</p>
+                        <span class="badge bg-success" style="border-radius:50px">Rising</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Guides Preview -->
+        <section class="my-5">
+            <h2 class="fw-bold text-center mb-1">Latest Guides</h2>
+            <hr class="section-divider">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://picsum.photos/400/220?random=11" class="card-img-top" alt="Guide 1">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">New</span>
+                            <h6 class="fw-bold">Building a USB-C PD Trigger Circuit</h6>
+                            <p class="small text-muted">Step-by-step guide to harvest 20V/5A from any PD charger for lab use.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://picsum.photos/400/220?random=12" class="card-img-top" alt="Guide 2">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Popular</span>
+                            <h6 class="fw-bold">ESP32-S3 Wireless Audio Streaming</h6>
+                            <p class="small text-muted">Implementing I2S + Bluetooth A2DP for lossless audio playback.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="https://picsum.photos/400/220?random=13" class="card-img-top" alt="Guide 3">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Beginner</span>
+                            <h6 class="fw-bold">Intro to RTOS with FreeRTOS</h6>
+                            <p class="small text-muted">Task scheduling, semaphores, and queues explained on STM32.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="guides.html" class="btn btn-outline-primary">View All Guides →</a>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="my-5">
+            <h2 class="fw-bold text-center mb-1">What Engineers Say</h2>
+            <hr class="section-divider">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="mb-3">"GadgetNet saved me hours of research. The datasheets and community answers are top-notch!"</p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://picsum.photos/50/50?random=21" class="rounded-circle me-3" alt="User">
+                            <div><strong>Priya S.</strong><br><small class="text-muted">RF Engineer, Bangalore</small></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="mb-3">"The teardown guides taught me more than my university courses. Incredible depth of content."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://picsum.photos/50/50?random=22" class="rounded-circle me-3" alt="User">
+                            <div><strong>Marco L.</strong><br><small class="text-muted">Firmware Dev, Berlin</small></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-card">
+                        <p class="mb-3">"Found my co-founder through the GadgetNet community. Best platform for hardware builders."</p>
+                        <div class="d-flex align-items-center">
+                            <img src="https://picsum.photos/50/50?random=23" class="rounded-circle me-3" alt="User">
+                            <div><strong>Aisha M.</strong><br><small class="text-muted">Hardware Startup, Lagos</small></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter-section rounded-4 p-5 my-5 text-center">
+            <h3 class="fw-bold">Stay Ahead of the Curve</h3>
+            <p class="mb-4">Get weekly curated electronics news, component alerts, and community highlights.</p>
+            <form class="row justify-content-center g-2" onsubmit="event.preventDefault(); alert('Subscribed! 🎉');">
+                <div class="col-md-6">
+                    <input type="email" class="form-control form-control-lg" placeholder="you@example.com" required>
+                </div>
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-warning btn-lg fw-bold">Subscribe</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white py-5 mt-5">
+        <div class="container">
+            <div class="row g-4 mb-4">
+                <div class="col-md-4">
+                    <h5 class="fw-bold">⚡ GadgetNet</h5>
+                    <p class="text-muted small">The world's most trusted electronics resource and engineering community network.</p>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="fw-bold text-white">Pages</h6>
+                    <ul class="list-unstyled small text-muted">
+                        <li><a href="index.html" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="resources.html" class="text-muted text-decoration-none">Resources</a></li>
+                        <li><a href="guides.html" class="text-muted text-decoration-none">Guides</a></li>
+                        <li><a href="community.html" class="text-muted text-decoration-none">Community</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold text-white">Categories</h6>
+                    <ul class="list-unstyled small text-muted">
+                        <li>Microcontrollers &amp; SoCs</li>
+                        <li>Power Electronics</li>
+                        <li>Wireless &amp; RF</li>
+                        <li>Embedded Linux</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 class="fw-bold text-white">Contact</h6>
+                    <ul class="list-unstyled small text-muted">
+                        <li>📧 hello@gadgetnet.com</li>
+                        <li>🐦 @GadgetNetHQ</li>
+                        <li>💼 LinkedIn: GadgetNet</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="border-secondary">
+            <p class="text-center mb-1 text-muted small">&copy; 2026 Tech Knowledge Hub. All rights reserved.</p>
+            <p class="text-center mb-0"><small class="text-muted">Designed for Electronics Gadgets &amp; Equipment Enthusiasts</small></p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
